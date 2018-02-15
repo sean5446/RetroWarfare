@@ -9,28 +9,25 @@ Date          Dec 2011
 
 ### NOTES
 ```
-===============================================================================
 ** This project was developed in eclipse and built/run in the terminal with 
    the make program **
 
 To move in the client, press w, a, s, d. To shoot, press space.
 To exit the client gracefully, press esc, Q, or q
 
-The map is reset after a client scores 20 points (10 kills)```
+The map is reset after a client scores 20 points (10 kills)
 ```
 
 ### SYSTEM DEPENDENCIES
 ```
-===============================================================================
 Java x64, JCurses x64 (correct OS build), UDP protocol
 
 ** CCCWORK1, CCCWORK2, CCCWORK5 DO NOT have Java x64 (DO NOT USE THEM)
-   DO use CCCWORK3, CCCWORK4 **```
-
+   DO use CCCWORK3, CCCWORK4 **
+```
 
 ### STRUCTURE
 ```
-===============================================================================
 Inside the project src directory:
 RWClient         - the main client thread
 RWClientListener - the listening thread for the client
@@ -45,7 +42,6 @@ RWMessage        - inter-thread communication class
 
 ### BUILD
 ```
-===============================================================================
 Inside the project root directory use:
 "make"           - makes server and client
 "make rwserver"  - makes the server
@@ -55,7 +51,6 @@ Inside the project root directory use:
 
 ### RUN
 ```
-===============================================================================
 Inside the project root directory use:
 "make rrwserver" - runs the server
 "make rrwclient" - runs the client
